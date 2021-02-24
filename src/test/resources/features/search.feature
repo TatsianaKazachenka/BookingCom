@@ -1,6 +1,5 @@
 Feature: Search on Booking.com
 
-  @run
   Scenario: Search by city criteria
     Given User is looking for 'Minsk' city
     When User does search
